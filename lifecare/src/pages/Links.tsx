@@ -28,6 +28,7 @@ const Links: React.FC = () => {
           className="w-34 h-32 rounded-full shadow-lg mb-4"
         />
         <h1 className="text-2xl font-bold">LifeCare Medicose</h1>
+      <h2 className="text-xl font-bold. mt-4">For Online Payment</h2>
       </header>
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {accounts.map((account, index) => (

@@ -74,7 +74,7 @@ const circleImageUrl = 'https://scontent.flhe2-2.fna.fbcdn.net/v/t39.30808-6/441
 const accounts = [
   { type: 'EasyPaisa', number: '03207725050', icon: <FaMoneyBillWave className="text-green-500 text-2xl" />, Name: 'Tahir Sabri' },
   { type: 'JazzCash', number: '03207725050', icon: <FaMoneyBillWave className="text-blue-700 text-2xl" />, Name: 'Tahir Sabri' },
-  { type: 'Bank Account', number: '23010108747944', icon: <FaUniversity className="text-blue-500 text-2xl" />, Name: 'Tahir Sabri' },
+  { type: 'Bank Account', number: '0546257272182', icon: <FaUniversity className="text-blue-500 text-2xl" />, Name: 'Tahir Sabri' },
 ];
 
 const Links: React.FC = () => {

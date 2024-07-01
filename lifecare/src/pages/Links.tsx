@@ -50,11 +50,7 @@ const Links: React.FC = () => {
                 {copiedIndex === index && <span className="ml-2 text-green-500 text-sm">Copied!</span>}
               </div>
             )}
-            {account&& (
-              <a href={account} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mt-2 text-sm">
-                Visit Profile
-              </a>
-            )}
+            
           </div>
         ))}
       </div>

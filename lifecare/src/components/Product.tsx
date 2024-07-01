@@ -47,7 +47,7 @@ const Product: React.FC<ProductProps> = ({ product, cartItem, addToCart, increas
               onClick={() => removeFromCart(product.id)}
               className="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-700"
             >
-              Delete
+              Deletea
             </button> 
           </div>
         )}

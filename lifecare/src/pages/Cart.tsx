@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ProductType } from '../types';
-import { FaUser, FaPhone, FaHome, FaTrash, FaShoppingBasket } from 'react-icons/fa'; // Importing necessary icons
+import { FaUser, FaPhone, FaHome, FaTrash } from 'react-icons/fa'; // Importing necessary icons
 
 interface CartProps {
   cart: ProductType[];

@@ -1,13 +1,13 @@
 
 import React, { useState } from 'react';
-import { FaMoneyBillWave, FaUniversity, FaFacebook, FaCopy } from 'react-icons/fa';
+import { FaMoneyBillWave, FaUniversity, FaCopy } from 'react-icons/fa';
 
 const circleImageUrl = 'https://scontent.flhe2-2.fna.fbcdn.net/v/t39.30808-6/441958913_1101763441590078_1661499849292250127_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEqz4HZ7nrq4MO2GjZCmLWyUndePhGGPOBSd14-EYY84JemmkpgXJmIqmnc_8aoftf9HiR5g4Rm9ZJA5Kr-jTUi&_nc_ohc=ONFacCVgrrgQ7kNvgHn1PwH&_nc_ht=scontent.flhe2-2.fna&oh=00_AYD3WF_F6YCEjg0wXiGSIsjXAgkt8OX2h51_V9npKfo_RA&oe=66854222';
 
 const accounts = [
-  { type: 'EasyPaisa', number: '03207725050', icon: <FaMoneyBillWave className="text-green-500 text-2xl" />, Name: 'Tahir Sabri' },
-  { type: 'JazzCash', number: '03207725050', icon: <FaMoneyBillWave className="text-blue-700 text-2xl" />, Name: 'Tahir Sabri' },
-  { type: 'Bank Account', number: '0546257272182', icon: <FaUniversity className="text-blue-500 text-2xl" />, Name: 'Tahir Sabri' },
+  { type: 'EasyPaisa', number: '03207725050', icon: <FaMoneyBillWave className="text-green-500 text-2xl" />, owner: 'Tahir Sabri' },
+  { type: 'JazzCash', number: '03207725050', icon: <FaMoneyBillWave className="text-blue-700 text-2xl" />, owner: 'Tahir Sabri' },
+  { type: 'Bank Account', number: '0546257272182', icon: <FaUniversity className="text-blue-500 text-2xl" />, owner: 'Tahir Sabri' },
 ];
 
 const Links: React.FC = () => {

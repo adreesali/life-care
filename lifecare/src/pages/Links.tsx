@@ -37,7 +37,7 @@ const Links: React.FC = () => {
               {account.icon}
               <span className="ml-2 text-2xl font-medium">{account.type}</span>
             </div>
-            <div className="text-red-500 text-lg mb-2 font-bold">Name: {account.Name}</div>
+            <div className="text-red-500 text-lg mb-2 font-bold">Name: {account.owner}</div>
             {account.number && (
               <div className="flex items-center justify-center w-full my-2">
                 <span className="text-gray-600 dark:text-gray-400 mr-2 text-sm">{account.number}</span>
@@ -50,8 +50,8 @@ const Links: React.FC = () => {
                 {copiedIndex === index && <span className="ml-2 text-green-500 text-sm">Copied!</span>}
               </div>
             )}
-            {account.url && (
-              <a href={account.url} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mt-2 text-sm">
+            {account&& (
+              <a href={account} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mt-2 text-sm">
                 Visit Profile
               </a>
             )}

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { FaMoneyBillWave, FaUniversity, FaCopy } from 'react-icons/fa';
 
-const circleImageUrl = 'https://scontent.flhe2-2.fna.fbcdn.net/v/t39.30808-6/441958913_1101763441590078_1661499849292250127_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEqz4HZ7nrq4MO2GjZCmLWyUndePhGGPOBSd14-EYY84JemmkpgXJmIqmnc_8aoftf9HiR5g4Rm9ZJA5Kr-jTUi&_nc_ohc=ONFacCVgrrgQ7kNvgHn1PwH&_nc_ht=scontent.flhe2-2.fna&oh=00_AYD3WF_F6YCEjg0wXiGSIsjXAgkt8OX2h51_V9npKfo_RA&oe=66854222';
+const circleImageUrl = 'https://scontent.flhe4-2.fna.fbcdn.net/v/t39.30808-6/456611137_122193437618024161_8809048862155745905_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFw8IJDLJyvKQUnuMt4Ke3dMVGufQv8NmQxUa59C_w2ZAULRpCbJzaB5dclGwlB5XZ7HvViHBdBh2Wsk299VWIy&_nc_ohc=e4h7n33Y1BEQ7kNvgFEKWmw&_nc_zt=23&_nc_ht=scontent.flhe4-2.fna&oh=00_AYBv3ziJlJH3zpZT3xfBHZiQrku-_coB2dBF95KU4hMdeQ&oe=66D0E1D2';
 
 const accounts = [
   { type: 'EasyPaisa', number: '03207725050', icon: <FaMoneyBillWave className="text-green-500 text-2xl" />, owner: 'Tahir Raza Sabri' },

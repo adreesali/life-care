@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState } from 'react';
 import { ProductType } from '../types';
 import { FaTrash } from 'react-icons/fa';

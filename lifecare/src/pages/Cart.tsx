@@ -42,7 +42,7 @@ const Cart: React.FC<CartProps> = ({ cart, increaseQuantity, decreaseQuantity, r
 
     const whatsappMessage = encodeURIComponent(`**Order Details:**\n${orderItems}${totalBill}${orderDetails}${customerDetails}`);
 
-    const whatsappLink = `https://wa.me/923207725050?text=${whatsappMessage}`;
+    const whatsappLink = `https://wa.me/923338012258?text=${whatsappMessage}`;
 
     window.open(whatsappLink, '_blank');
   };
